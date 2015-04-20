@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Feelin' Drizzy",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "A chrome extension that makes it rain with Drakes face, and replaces all the images on the page with images of Drake.",
+    "description": "The description of the application"
+  }
+}
