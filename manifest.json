@@ -1,6 +1,6 @@
  {
   "name": "Feelin' Drizzy",
-  "version": "1",
+  "version": "1.0",
   "manifest_version": 2,
   "description": "A chrome extension that makes it rain with Drakes face, and replaces all the images on the page with images of Drake.",
   "background": {
@@ -16,8 +16,11 @@
     "icons": ["assets/icon.png"],
     "default_icon": "assets/icon.png"
   },
+  "icons": { "16": "assets/icon16.png",
+           "48": "assets/icon48.png",
+          "128": "assets/icon128.png" },
   "content_scripts": [ {
-    "js": [ "bower_components/jquery/dist/jquery.min.js", "bower_components/jquery-snowfall/dist/snowfall.jquery.min.js", "scripts/background.js" ],
+    "js": [ "bower_components/jquery/dist/jquery.min.js", "bower_components/jquery-snowfall/dist/snowfall.jquery.min.js"],
     "matches": ["<all_urls>"]
   }],
   "permissions": ["<all_urls>"]
