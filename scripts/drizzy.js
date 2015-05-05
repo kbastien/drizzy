@@ -11,6 +11,9 @@ giphy.done(
 			};
 		});
 		$(document).ready(function(){
-			$(document).snowfall({image :"http://www.lilwaynehq.com/forums/images/smilies/drizzy-face.png", minSize: 15, maxSize:40, flakeCount : 100, maxSpeed : 10});
+			$(document).snowfall({image :"http://i.imgur.com/YrMrnjp.png", minSize: 15, maxSize:40, flakeCount : 100, maxSpeed : 10});
+			setTimeout(function(){
+			  $(document).snowfall('clear');
+			}, 10000);
 		});
 	}); 
